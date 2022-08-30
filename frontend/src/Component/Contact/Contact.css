@@ -1,0 +1,94 @@
+
+.contact{
+    text-align: center;
+}
+.contactHeader{
+    text-align: center;
+    padding-top: 6vmax;
+}
+.contactBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    margin: 4vmax 10vmax;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: 100%; */
+    
+}
+.inputForm > button:hover {
+    background-color: #b9a301;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 1), 0 2px 6px 0 rgba(255, 255, 255, 1);
+    transform: scale(1.2);
+
+}
+.inputForm > button{
+    margin: 2vmax auto;
+    padding: 1vmax 2vmax;
+    border: none;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+    background: transparent;
+}
+.inputForm > textarea{
+    margin: 2vmax auto;
+    padding: 1vmax 2vmax;
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.inputForm > input{
+    margin: 2vmax auto;
+    padding: 1vmax 5vmax;
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 3vmax auto;
+
+}
+.contactBox>.left{
+    background-image: url("../../images/higheWater.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.right>img{
+    width: fit-content;
+    height: fit-content;
+}
+
+@media screen and (max-width:620px) {
+    .contactBox{
+        flex-direction: column;
+        width: fit-content;
+    }
+    .contactHeader{
+        padding-top: 12vmax;
+    }
+}
+@media screen and (max-width:1024px) {
+    .contactBox{
+        flex-direction: column;
+        width: fit-content;
+    }
+}
+@media screen and (max-width:920px) {
+    .contactBox{
+        flex-direction: column;
+        width: fit-content;
+    }
+    .contactHeader{
+        padding-top: 12vmax;
+    }
+}

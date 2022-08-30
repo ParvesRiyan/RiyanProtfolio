@@ -1,0 +1,245 @@
+.skills {
+    background-image: url("../../images/skillsBG.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.skillsHeader {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 5px solid #333;
+    width: fit-content;
+    padding-top: 6vmax;
+}
+
+.js {
+    background-image: url("../../images/JsJq.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.PF {
+    background-image: url("../../images/PF.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.sass {
+    background-image: url("../../images/sass.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.RR {
+    background-image: url("../../images/RR.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.RB {
+    background-image: url("../../images/RBTS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.css {
+    background-image: url("../../images/CSS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.html {
+    background-image: url("../../images/HTML.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.MDB {
+    background-image: url("../../images/MDB.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.njs {
+    background-image: url("../../images/NJS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.react {
+    background-image: url("../../images/React.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2vmax;
+}
+
+.progressWithTag {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vmax;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 9);
+
+}
+
+.skillsInProgressbar {
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+    background: rgba(39, 39, 39, 0.478);
+    margin: 1vmax;
+    margin-left: 0.2vmax;
+    padding-top: 0.7vmax;
+    padding-bottom: 0.7vmax;
+}
+
+.skillsInText {
+    width: 50%;
+    margin: 1vmax;
+    margin-right: 0.2vmax;
+}
+
+.skillsArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expertiseSkills {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expertiseSkills>span {
+    background-color: rgba(62, 62, 62, 0.856);
+    margin: 0.5vmax;
+    padding: 0.5vmax;
+    border-radius: 5px;
+}
+
+.expertise {
+    text-align: center;
+    background: rgba(39, 39, 39, 0.478);
+}
+
+.comfortableSkills {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comfortableSkills>span {
+    background-color: rgba(62, 62, 62, 0.856);
+    margin: 0.5vmax;
+    padding: 0.5vmax;
+    border-radius: 5px;
+}
+
+.confortable {
+    text-align: center;
+    background: rgba(39, 39, 39, 0.478);
+    margin-top: 1vmax;
+}
+
+.familiarSkills {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.familiarSkills>span {
+    background-color: rgba(62, 62, 62, 0.856);
+    margin: 0.5vmax;
+    padding: 0.5vmax;
+    border-radius: 5px;
+}
+
+.familiar {
+    text-align: center;
+    background: rgba(39, 39, 39, 0.478);
+    margin-top: 1vmax;
+}
+
+.toolsSkills {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolsSkills>span {
+    background-color: rgba(62, 62, 62, 0.856);
+    margin: 0.5vmax;
+    padding: 0.5vmax;
+    border-radius: 5px;
+}
+
+.tools {
+    text-align: center;
+    background: rgba(39, 39, 39, 0.478);
+    margin-top: 1vmax;
+}
+
+@media screen and (max-width:620px) {
+    .skillsArea {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .skillsInProgressbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillsHeader {
+        padding-top: 12vmax;
+    }
+}

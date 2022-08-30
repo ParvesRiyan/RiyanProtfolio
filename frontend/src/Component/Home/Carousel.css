@@ -1,0 +1,37 @@
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vmax;
+    padding-top: 3vmax;
+    color: black;
+    text-shadow: 1px 1px 9px rgb(255, 255, 255);
+    
+}
+
+.slide > img{
+    position: absolute;
+    
+    opacity: 0.5;
+}
+
+
+.slide > h2 {
+     margin: 2.5vmax; 
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+}
+
+.slide > h5{
+    font-size: medium;
+    position: relative;
+}
+
+span {
+    color: rgb(0, 136, 255);
+    line-height: 2.5vmax;
+    font-size: 20px;
+    font-weight: bold;
+}

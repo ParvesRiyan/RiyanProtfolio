@@ -1,0 +1,252 @@
+.servicesContainer {
+    text-align: center;
+    padding-top: 6vmax;
+}
+
+.serviceIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vmax;
+    padding: 1vmax;
+}
+
+.pricingBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2vmax;
+    padding: 1vmax;
+}
+
+.pricinigSetup {}
+
+.pricing {
+    /* background-image: url("../../images/webDesign.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(29, 29, 29, 0.622);
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-left: 2vmax;
+    /* padding: 2vmax; */
+    /* text-shadow: 0px 0px 6px rgba(255, 255, 255, 9); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.pricingDetails:hover+.pricingBtn {
+    display: block;
+    background: transparent;
+}
+
+.pricingDetails:hover {
+    text-shadow: 0px 0px 0px;
+    background-color: rgb(134, 3, 3);
+    color: green;
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+
+.pricingDetails>h1 {
+    margin: 1vmax auto;
+}
+
+.pricingDetails>h4 {
+    margin: 1vmax auto;
+}
+
+.pricingDetails>p {
+    margin: 1vmax auto;
+    color: white;
+}
+
+.provide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provide>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1vmax auto;
+    text-align: center;
+}
+
+
+.pricingBtn:hover+.pricingDetails {
+    text-shadow: 0px 0px 0px;
+    background-color: rgb(134, 3, 3);
+    color: green;
+    opacity: 0.4;
+}
+
+.pricingBtn:hover {
+    background-color: rgba(134, 3, 3, 0.843);
+    color: green;
+    display: block;
+
+}
+
+.pricingBtn>a>button {
+    padding: 1vmax;
+    margin-bottom: 1vmax;
+    cursor: pointer;
+}
+
+.pricingBtn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 2vmax;
+    display: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.design>h1 {
+    margin-bottom: 3vmax;
+}
+
+.design:hover {
+    background-color: rgb(134, 3, 3);
+    background-origin: content-box;
+    background-blend-mode: darken;
+    color: white;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 0px;
+
+}
+
+.design {
+    background-image: url("../../images/webDesign.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(29, 29, 29, 0.622);
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    margin-left: 2vmax;
+    padding: 2vmax;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.development>h1 {
+    margin-bottom: 3vmax;
+}
+
+.development:hover {
+    background-color: rgb(134, 3, 3);
+    background-origin: content-box;
+    background-blend-mode: darken;
+    color: white;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 0px;
+
+}
+
+.development {
+    background-image: url("../../images/webDevelopment.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(29, 29, 29, 0.622);
+    width: auto;
+    height: auto;
+    margin-left: 2vmax;
+    padding: 2vmax;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.database>h1 {
+    margin-bottom: 3vmax;
+}
+
+.database:hover {
+    background-color: rgb(134, 3, 3);
+    background-origin: content-box;
+    background-blend-mode: darken;
+    color: white;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 0px;
+
+}
+
+.database {
+    background-image: url("../../images/database.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(29, 29, 29, 0.622);
+    width: auto;
+    height: auto;
+    margin-left: 2vmax;
+    padding: 2vmax;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:620px) {
+    .serviceIntro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricingBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1vmax;
+    }
+
+    .design {
+        display: flex;
+        margin-bottom: 1vmax;
+        flex-direction: column;
+    }
+
+    .development {
+        margin-bottom: 1vmax;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .database {
+        margin-bottom: 1vmax;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicesContainer {
+        padding-top: 12vmax;
+    }
+}

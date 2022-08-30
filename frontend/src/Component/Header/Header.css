@@ -1,0 +1,60 @@
+.header {
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 1px 5px 0 rgba(255, 255, 255, 1), 0 1px 8px 0 rgba(255, 255, 255, 1);
+
+
+}
+
+.mylogo>a>img {
+    width: 8vmax;
+    height: 6vmax;
+    padding-left: 3vmax;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    margin-inline-end: inherit;
+}
+
+.navbar>a {
+    margin-right: 8vmax;
+    text-decoration: none;
+    color: #a89501;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 1);
+
+
+}
+
+.navbar>a:hover {
+    transform: scale(1.5);
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 1);
+
+}
+
+@media screen and (max-width:620px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+        margin-inline: initial;
+        margin: auto;
+    }
+    .navbar>a {
+        margin: auto 2vmax;
+    }
+}

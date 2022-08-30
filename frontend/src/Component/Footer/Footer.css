@@ -1,0 +1,62 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    color: #a89501;
+    padding: 2vmax;
+}
+
+.footerContact {
+    text-align: center;
+    margin: 2vmax;
+    margin-top: 0;
+    margin-bottom: 1vmax;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+
+}
+
+.logoSection {
+    text-align: center;
+    line-height: 4vmax;
+}
+
+.logo {
+    margin-left: 1vmax;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    /* box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 1), 0 1px 3px 0 rgba(255, 255, 255, 1); */
+}
+
+.navSection>a>button {
+    background-color: transparent;
+    color: #a89501;
+    border: 2px solid #000;
+    padding: 1vmax;
+    border-radius: 5vmax;
+    margin-left: 1vmax;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 1), 0 1px 3px 0 rgba(255, 255, 255, 1);
+
+}
+
+.copyrightSection {
+    margin: auto;
+    margin-top: 2vmax;
+    text-align: center;
+
+}
+
+@media screen and (max-width:800px) {
+    .footerContact {
+        flex-direction: column;
+    }
+}

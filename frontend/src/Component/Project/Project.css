@@ -1,0 +1,52 @@
+.projectHeader{
+    text-align: center;
+    padding-top: 6vmax;
+}
+.projectBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vmax;
+    background-color: rgba(0, 0, 0, 0.428);
+    padding: 2vmax;
+    flex-direction: column;
+
+}
+.left{
+    text-align: center;
+}
+.left >a >button {
+    padding: 1vmax 4vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.right{
+    width: 100%;
+}
+
+.projectSlide > img{
+    width: fit-content;
+    height: fit-content;
+    opacity: 1;
+}
+
+.letest{
+    text-align: center;
+    margin: 3vmax auto;
+    color: white;
+    padding: 2vmax;
+    background: rgba(0, 0, 0, 0.682);
+    width: fit-content;
+}
+
+
+@media screen and (max-width:620px) {
+    .projectBox{
+        flex-direction: column;
+    }
+    .projectHeader{
+        padding-top: 12vmax;
+    }
+}
